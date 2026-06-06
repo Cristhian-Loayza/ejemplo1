@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGROMAX</title>
+    <link rel="shortcut icon" href="IMG/ISOTIPO.png">
+
+    <link rel="stylesheet" href="CSS/ESTILO-WEB.css">
+    <link rel="stylesheet" href="CSS/SECTION-BLOQUE-01.css">
+
+    <link rel="stylesheet" href="CSS/estilo-footer.css">
+
+    <link rel="stylesheet" href="ESTILO-GALERIA.css">
+
+    
+</head>
+    <header class="header">
+        <a href="INDEX.html" class="logo"><img src="IMG/LOGO-2.png" width="45"></a>
+        <input type="checkbox" id="side-menu" class="side-menu">
+        <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+               <li><a href="INDEX.html">INICIO</a></li>
+                <li><a href="NOSOTROS.html">NOSOTROS</a></li>
+                <li><a href="SERVICIOS.html">SERVICIOS</a></li>
+                <li><a href="GALERIA.html">GALERIA</a></li>
+                <li><a href="FORMULARIO.html">CONTACTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p>
+<body>
+    <center>
+    <section>
+        <img src="IMG/banner1 copia.jpg" width="100%">
+    </section>
+     </center>
+     <p>
+        <!--BLOQUE GALERIA-->
+
+       <div class="ful-img" id="fulImgBox">
+        <img src="img-galeria/1.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <b><h2><span>Galería de imágenes</h2></span></b>
+
+    <div class="img-gallery">
+        <img src="img-galeria/1.jpg" onclick="openFulImg(this.src)" alt="Imagen-1">
+        <img src="img-galeria/2.jpg" onclick="openFulImg(this.src)" alt="Imagen-2">
+        <img src="img-galeria/3.jpg" onclick="openFulImg(this.src)" alt="Imagen-3">
+        <img src="img-galeria/4.jpg" onclick="openFulImg(this.src)" alt="Imagen-4">
+        <img src="img-galeria/5.jpg" onclick="openFulImg(this.src)" alt="Imagen-5">
+        <img src="img-galeria/6.jpg" onclick="openFulImg(this.src)" alt="Imagen-6">
+        <img src="img-galeria/7.jpg" onclick="openFulImg(this.src)" alt="Imagen-7">
+        <img src="img-galeria/8.jpg" onclick="openFulImg(this.src)" alt="Imagen-8">
+    </div>
+
+    <script src="EFECTO-ANIMACION.js"></script>
+<br>
+
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-column branding">
+            <img src="IMG/LOGO-PRINCIPAL.png" alt="AGROMAX-Nutriendo Raíces" class="footer-logo">
+            <h2 class="tagline">Nutriendo Raíces</h2>
+            <div class="company-info">
+                <p><strong>La Empresa</strong></p>
+                <ul>
+                    <li>RUC: 20548562453</li>
+                    <li>Razón Social: AGROMAX S.R.L</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-column contact-details">
+            <div class="andress-section">
+                <p>
+                    <strong >AGROMAX-OFICINA CENTRAL</strong>
+                    </P>
+                    <P>Av. Los Rosales 520, San Miguel, Lima-Perú.</P>
+            </div>
+
+            <div class="andress-section">
+                <p>
+                    <strong >AGROMAX-LOCAL</strong>
+                    </P>
+                    <P>Panamericana Sur Km. 933 - Distrito de Salas-Ica-Perú</P>
+            </div>
+
+            <div class="contact-section">
+                <p><strong>Conctáctanos</strong></p>
+                <ul>
+                    <li>Perú +51 3212015</li>
+                    <li>atencionalcliente@agromax.com.pe</li>
+                    <li>ventas@agromax.com.pe</li>
+                    <li>soporte@agromax.com.pe</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-column extras">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/login/es"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.facebook.com/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+            </div>
+
+            <div class="complaints-book">
+                <img src="IMG/libro-reclamaciones.png" alt="Libro de reclamaciones">
+                <a href="#" class="terms-link">Términos y Condiciones</a>
+            </div>
+        </div>
+    </div>
+<div class="footer-bottom">
+    <p>©2026 AGROMAX. Todos los derechos reservados.</p>
+    <div class="divider"></div>
+    <p>Diseñador por: <strong>Cristhian Loayza</strong></p>
+</div>
+</footer>
+
+</body>
+</html>
